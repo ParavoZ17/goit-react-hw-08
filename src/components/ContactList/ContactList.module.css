@@ -1,0 +1,14 @@
+.item{
+    display: flex;
+    border: black solid 1px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 14px;
+}

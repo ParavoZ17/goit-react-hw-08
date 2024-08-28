@@ -1,0 +1,35 @@
+.form{
+   display: flex;
+   flex-direction: column;
+    padding: 30px;
+    border: solid black 1px;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 400px;
+
+}
+
+.label{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.input{
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.attention {
+    color: red; 
+}
+.submit{
+    
+    width: 200px;
+    background-color: gray;
+    border-color: yellow;
+    
+}

@@ -1,0 +1,17 @@
+.contact{
+   padding: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+      
+}
+.icon{
+    margin-right: 10px;
+
+}
+.delete{
+    border: 1px solid gray;
+   
+    height: 50px;
+}
