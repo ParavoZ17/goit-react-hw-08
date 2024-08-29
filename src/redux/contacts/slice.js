@@ -48,7 +48,13 @@ const slice = createSlice({
       .addCase(addContact.rejected, (state) => {
         state.loading = false;
         state.error = true;
+      })
+      .addCase(logOut.fulfilled, (state) => {
+        state.items = [];
+        state.loading = false;
+        state.error = false;
       }),
+     
 });
 
 

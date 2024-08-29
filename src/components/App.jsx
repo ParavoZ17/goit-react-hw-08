@@ -7,10 +7,10 @@ import { refreshUser } from "../redux/auth/operations";
 import { selectIsRefreshing } from "../redux/auth/selectors";
 import { RestrictedRoute } from "./RestrictedRoute";
 import { PrivateRoute } from "./PrivateRoute";
-const HomePage = lazy(() => import("../pages/Home"));
-const RegisterPage = lazy(() => import("../pages/Register"));
-const LoginPage = lazy(() => import("../pages/Login"));
-const ContactsPage = lazy(() => import("../pages/Contacts"));
+const HomePage = lazy(() => import("../pages/HomePage"));
+const RegisterPage = lazy(() => import("../pages/RegisterPage"));
+const LoginPage = lazy(() => import("../pages/LoginPage"));
+const ContactsPage = lazy(() => import("../pages/ContactsPage"));
 
 export default function App() {
   const isRefreshing = useSelector(selectIsRefreshing);
